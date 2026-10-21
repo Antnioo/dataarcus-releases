@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Antnioo/dataarcus",
+  "title": "DataArcus for Power BI",
+  "description": "Plan, check and write Power BI reports on your PC after you approve. Arabic RTL and Gulf calendar.",
+  "version": "0.3.0",
+  "websiteUrl": "https://dataarcus.com/power-bi-mcp/",
+  "repository": {
+    "url": "https://github.com/Antnioo/DataArcus",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registryType": "mcpb",
+      "identifier": "https://github.com/Antnioo/dataarcus-releases/releases/download/v0.3.0/dataarcus-0.3.0.mcpb",
+      "fileSha256": "aa23ace80d6777df5dcf47a0847ae8b96783034b2e1e0466625cae579704f9cb",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
