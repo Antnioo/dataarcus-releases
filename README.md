@@ -29,9 +29,12 @@ including the working folder and how to update or remove it, are in
 
 ## Privacy
 
-DataArcus has no telemetry and makes no network connections. It never returns your data's values to Claude,
-and writes nothing until you click Approve in its approval window. The download counts on this page are GitHub's own;
-nothing in DataArcus counts or sends anything.
+DataArcus has no telemetry and makes no network connections of its own, and it writes nothing until you click
+Approve in its approval window. What its tools return is read by Claude (so it goes to Anthropic under your Claude
+account): your model's structure (table, column and measure names, types, formats), never the rows of your tables, plus
+the short texts typed in a report (titles, text boxes). Details:
+[mcp/PRIVACY.md](https://github.com/Antnioo/DataArcus/blob/main/mcp/PRIVACY.md). The download counts on this page are
+GitHub's own.
 
 ## Licence
 
