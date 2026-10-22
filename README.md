@@ -36,6 +36,13 @@ the short texts typed in a report (titles, text boxes). Details:
 [mcp/PRIVACY.md](https://github.com/Antnioo/DataArcus/blob/main/mcp/PRIVACY.md). The download counts on this page are
 GitHub's own.
 
+## Source history
+
+On 22 October 2026 the history of the source repository was rewritten to remove old material that should never have
+been public. Today's files did not change. 0.3.0 was built from commit `51dec98`, which is now
+`fab795ce0cf8c3ebd7bfe49e393fc017fb4ddc0b` (the same files except one code comment that is not in the package); built
+again from it, `dataarcus-0.3.0.mcpb` has the same SHA-256 as the file on its release page.
+
 ## Licence
 
 See [LICENSE](https://github.com/Antnioo/DataArcus/blob/main/LICENSE) in the source repository. Not open source: you
