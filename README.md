@@ -14,10 +14,10 @@ Each release lists the SHA-256 of its `.mcpb` file in its notes and in `SHA256SU
 install it. On Windows:
 
 ```
-certutil -hashfile "dataarcus-0.3.1.mcpb" SHA256
+certutil -hashfile "dataarcus-0.3.2.mcpb" SHA256
 ```
 
-or in PowerShell: `Get-FileHash "dataarcus-0.3.1.mcpb"`. If the two values differ, don't install it.
+or in PowerShell: `Get-FileHash "dataarcus-0.3.2.mcpb"`. If the two values differ, don't install it.
 
 ## Install
 
